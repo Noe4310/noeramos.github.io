@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>  Formulario de Contacto </title>
+  <link rel="stylesheet" href="estiloform.css">
+</head>
+
+<body background="Img\fondoessen.webp"> <center>
+  <div class="contact_form">
+    <div class="formulario">
+      <h1><font face="ink free" size=6 style="color:black"> <b><u> <center> SUMATE A MI EQUIPO. </center> </u> </b> </font> </h1>
+        <h3> <font face="candara" size=4><b><center> Escribenos y en breve nos ponemos en contacto. </center></b></font> </h3>
+        <form action=" " method="post">
+          <p>
+            <label for="nombre" class ="colocar_nombre"><font face="ink free" size=4> Nombre y Apellido.</font>
+                <span class ="obligatorio">*</span>
+            </label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre completo" maxlength="5">
+            </p>
+
+            <p>
+              <label for="Nacionalidad" class ="colocar_Nacionalidad"><font face="ink free" size=4> Nacionalidad </font>
+                  <span class ="obligatorio">*</span>
+                  <select id="Nacionalidad" name="Nacionalidad">
+                    <option value="------"> ------</option>
+                    <option value="Argentina"> Argentina</option>
+                    <option value="EE.UU"> EE.UU </option>
+                    <option value="Venezuela"> Venezuela </option>
+                    <option value="Otro"> Otro </option>
+                  </select>
+              </label><br>
+              </p>
+
+            <p>
+              <label for ="email" class ="colocar_email"> <font face="ink free" size=4> Email </font>
+                <span class="Obligatorio">*</span>
+              </label>
+              <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+            </p>
+
+            <p>
+              <label for="telefone" class="colocar_telefono"> <font face="ink free" size=4> Teléfono </font>
+              </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>
+
+          <p>
+              <label for="asunto" class="colocar_asunto"> <font face="ink free" size=4> Asunto </font>
+                <span class="obligatorio">*</span>
+                <select id="Asunto" name="Asunto">
+                  <option value="------"> ------</option>
+                  <option value="Incorporacion."> Incorporacion-</option>
+                  <option value="Info del negocio."> Info del negocio. </option>
+                  <option value="Capacitaciones."> Capacitaciones.</option>
+                </select>
+              </label><br>
+
+            </p>
+
+            <p>
+              <label for="mensaje" class="colocar_mensaje"> <font face="ink free" size=4> Mensaje </font>
+                <span class="obligatorio">*</span>
+              </label>
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Contanos como llegaste hasta nosotos..."></textarea>
+            </p>
+
+            <button type="submit" value="Enviar"> <p>Enviar</p></button>
+
+            <p class="aviso">
+              <span class="obligatorio" style="color:black" font face="ink free"> * Los campos son obligatorios. </span>
+            </p>
+        </form>
+
+    </div>
+  </div>
+  <br>
+  <footer class="pie">
+
+    <p><b><font face="ink free" size=4>&copy; Derechos Reservados</b></p>
+    Emprendora Oficial, Noe Ramos. <br>
+    Codigo: 343535</font>
+
+  </footer>
+
+</body>
+</center>
+</html>

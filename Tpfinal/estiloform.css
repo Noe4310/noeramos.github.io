@@ -1,0 +1,119 @@
+body{
+  background-image: img\fondoessen.webp;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: sans-serif, 'Noto Sans';
+  background-color: black;
+
+}
+
+.contact_form {
+width: 700px;
+height: auto;
+margin: 80 px auto;
+border-radius: 10px;
+padding-top: 30px;
+padding-bottom: 20px;
+background-color: #fbfbfb;
+}
+
+input {
+background-color: pink;
+width: 408px;
+height: 40px;
+border-radius: 5px;
+border-style: solid;
+border-width: 1px;
+border-color: black;
+margin-top: 10px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+
+select {
+  display:block;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #ab4493;
+}
+
+button {
+
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  background-color: pink;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor:pointer;
+}
+
+button p{
+  color:black;
+}
+
+span{
+color: black;
+}
+
+.aviso{
+  font-size:13px;
+  color:#ab4493;
+}
+
+h1{
+font-size: 39px;
+text-align: left;
+padding-bottom: 20px;
+color: #ab4493;
+}
+
+h3{
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #719a81;
+}
+
+p{
+
+  font-size: 14px;
+  color:#719a81;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+::-webkit-textarea-placeholder{
+  color: black;
+}
+
+.pie {
+  clear: both;
+  padding: 20px;
+  background: #ccc0aa;
+}
