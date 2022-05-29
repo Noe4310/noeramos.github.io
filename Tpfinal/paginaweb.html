@@ -14,6 +14,15 @@
 </head>
 
 <body background="Img\fondorosa.jpeg">
+  <!Este div loader será el encargado de mostrar la imagen
+      de carga cuando la web esté cargando.>
+    <div class="loader"></div>
+   <!esconder la imagen de carga cuando la página haya terminado de cargar>
+    <script type="tpfinal/loading.JavaScript">
+    $(window).load(function() {
+        $(".loader").fadeOut("slow");
+    });
+    </script>
     <header>
       <div class="agrupar">
         <nav class="menu">
